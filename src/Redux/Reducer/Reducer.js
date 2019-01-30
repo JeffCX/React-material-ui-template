@@ -1,18 +1,16 @@
-import { VisibilityFilters } from './actions'
+
 
 const initialState = {
-  visibilityFilter: VisibilityFilters.SHOW_ALL,
-  todos: []
+  number:0
 }
 
-const toDo_Reducer = (state, action)  =>{
-  if (typeof state === 'undefined') {
-    return initialState
-  }
+const toDo_Reducer = (state=initialState, action)  =>{
+    switch(action.type){
+        
+        default:
+        return state
+    }
 
-  // For now, don't handle any actions
-  // and just return the state given to us.
-  return state
 }
 
 
