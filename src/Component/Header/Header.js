@@ -168,6 +168,7 @@ class PrimarySearchAppBar extends React.Component {
         </MenuItem>
         </Link>
 
+       
         <Link to="/contact">
         <MenuItem onClick={this.handleProfileMenuOpen}>
 
@@ -177,14 +178,6 @@ class PrimarySearchAppBar extends React.Component {
           </MenuItem>
         </Link>
 
-        <Link to="/contact">
-        <MenuItem onClick={this.handleProfileMenuOpen}>
-
-        <Button style={{color:"#7109b5"}} >
-                Contact Us
-              </Button>
-          </MenuItem>
-        </Link>
 
         
 
@@ -233,15 +226,9 @@ class PrimarySearchAppBar extends React.Component {
              <SubpageButton content="Around NYC"></SubpageButton>
             </a>
 
-         
-
-            <Link to="/contact">
-              <SubpageButton content="CONTACT US"></SubpageButton>
-            </Link>
-
-
-
-
+              <Link to="/contact">
+                <SubpageButton content="CONTACT US"></SubpageButton>
+              </Link>
             </div>
             </div>
 
